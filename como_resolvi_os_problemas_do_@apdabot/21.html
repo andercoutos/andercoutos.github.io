@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Como resolvi os problemas do @APDABot - Hacker Gaucho</title>
+    <meta name="viewport" content="width=device-width; user-scalable=0" />
+    <link rel="shortcut icon" href="https://hackergaucho.github.io/favicon.ico">
+    <!-- facebook min200x200 https://developers.facebook.com/tools/debug/ -->
+    <meta property="og:image"
+    content="http://localhost/hg/https://hackergaucho.github.io/img/logo_white_avatar_200px.png" />
+    <meta property="og:title" content="Como resolvi os problemas do @APDABot" />
+    <!-- <meta property="og:description" content="Hacker Gaucho" /> -->
+    <meta property="og:url" content="https://hackergaucho.github.io/como_resolvi_os_problemas_do_@apdabot/21.html"/>
+    <!-- twitter https://cards-dev.twitter.com/validator -->
+    <meta name="twitter:title" content="Como resolvi os problemas do @APDABot">
+    <!-- <meta name="twitter:description" content="Hacker Gaucho"> -->
+    <!-- summary = ratio 1:1, 144x144 min, 4096x4096 max -->
+    <!-- summary_large_image = ratio 2:1 300x157 min, 4096x4096 max -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="https://hackergaucho.github.io/img/logo_white_avatar_200.png">
+    <meta name="twitter:site" content="@devgaucho">
+    <meta name="twitter:creator" content="@devgaucho">
+    <meta name="twitter:url" content="https://hackergaucho.github.io/como_resolvi_os_problemas_do_@apdabot/21.html">
+    <!-- assets -->
+    <script src="../js/jquery-1.12.4.min.js%3F4f252523d4af0b478c810c2547a63e19"></script>
+    <script src="../js/loadingoverlay.js%3F8edd638c6dc7c7ff314570b921740d7a"></script>
+    <script src="../js/script.js%3F8ca9ba97c417f6f309101210f57838f6"></script>
+</head>
+<body style="text-align:center;">
+<div style="width:780px;margin:0 auto;text-align:left;max-width:100%;">
+    <div class="top">
+    <!--<a class="imageHover"
+    href="http://localhost/hg/"
+    title="Hacker Gaucho">
+        <img src="http://localhost/hg/img/logo_white_150px.png" width="150" height="150"
+    alt="Hacker Gaucho"></a>-->
+    <center>
+        <a class="imageHover"
+    href="../index.html"
+    title="Hacker Gaucho">
+    <h1>Hacker Gaucho</h1></a><h2>Como resolvi os problemas do @APDABot</h2>    </center>
+</div>
+    <center>
+    <p>
+        <b>
+            07.Sep.2021        </b>
+    </p>
+    </center>
+    <hr>
+        <div class="post">
+    O <a href="https://twitter.com/APDABot" target="_blank">https://twitter.com/APDABot</a> passou por diversos problemas desde domingo passado (05set2021), a maioria deles estava relacionado a publica&ccedil;&atilde;o de mensagens n&atilde;o relacionadas a &aacute;rea de TI.<br />
+<br />
+Hoje (07set2021) atualizei o script do bot para melhorar a precis&atilde;o na identifica&ccedil;&atilde;o de tweets. Ao inv&eacute;s de usar tweets resumidos o bot come&ccedil;ou a baixar tweets inteiros e ao inv&eacute;s de confiar nos resultados da busca do Twitter passou a aplicar os termos de busca como &quot;whitelist&quot; nos resultados da busca.<br />
+<br />
+Como o bot est&aacute; trabalhando no limite processando (em m&eacute;dia 100 tweets por minuto) tive problemas com a API que transforma os &quot;ids&quot; do tweets resumidos em tweets inteiros. Para contornar o problema estou baixando os tweets inteiros atrav&eacute;s do &quot;OEmbed&quot; toda vez que o bot atinge o limite de requisi&ccedil;&otilde;es.<br />
+<br />
+A partir de agora o bot tamb&eacute;m est&aacute; retweetando automaticamente posts de perfis que ele segue, assim o bot passa a ter uma proximidade maior com a comunidade dev.    </div><!--post-->
+    <hr>
+    <center>
+        </center>
+    </div><!--container-->
